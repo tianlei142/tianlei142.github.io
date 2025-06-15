@@ -1,0 +1,58 @@
+body{
+    font-family: 华文楷体;
+    font-size: large;
+}
+div#main{
+    height:1000px;
+    background-image: url(../images/main_body.jpg);
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+div#wrapper {
+    display: flex;
+    flex-direction: column; /* 垂直排列 */
+    gap: 20px; /* 区块间距 */
+    margin-left: 300px; /* 整体右移300px */
+}
+
+.interest {
+    display: flex;
+    height: 300px;
+    align-items: center; /* 垂直居中 */
+    background-color: rgba(196, 219, 217, 0.758);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.interest img {
+    width: 30%; 
+    height: 200px;
+    object-fit: cover;
+}
+
+.text {
+    flex: 1;
+    padding: 30px;
+}
+
+.text h2, .text h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.text p {
+    color: #666;
+    font-size: 1em;
+    line-height: 1.8;
+}
+.interest:hover {
+    transform: translateY(-5px); /* 悬停时轻微上浮 */
+}

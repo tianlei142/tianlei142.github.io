@@ -1,0 +1,85 @@
+div#main{
+    height:1000px;
+    background-image: url(../images/main_body.jpg);
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 230px;
+    /* display: flex; 
+    flex-direction: row; 
+    overflow-x: auto; 
+    gap: 20px;  */
+}
+
+div#wrapper {
+    width: 100%;
+}
+div#travel-memory{
+    display: flex; 
+    flex-direction: row; 
+    gap: 20px; 
+    width: 400px;
+    height: 900px;
+}
+div.travel-begin {
+    background-color: rgba(139, 74, 103, 0.648);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    min-width: 150px; 
+    max-width: 200px; 
+    height: auto; 
+    transition: transform 0.3s ease;
+}
+div#taining{
+    background-image: url(../images/泰宁.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div#changsha{
+    background-image: url(../images/长沙.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div#wuhan{
+    background-image: url(../images/武汉.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div#changzhi{
+    background-image: url(../images/长治.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div#suzhou{
+    background-image: url(../images/苏州.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div#shanghai{
+    background-image: url(../images/上海.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.travel-begin:hover {
+    transform: scale(1.05); 
+}
+
+div.travel-begin h2 {
+    color: #17a2b8;
+    margin-bottom: 10px;
+}
+
+div.travel-begin p {
+    line-height: 1.6;
+    color:black;
+}
+
+div#ending-text {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    color: #17a2b8;
+    margin-top: 20px;
+}
