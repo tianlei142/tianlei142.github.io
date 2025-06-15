@@ -17,7 +17,7 @@ body{
 }
 div#header{
     height: 150px;
-    background-image: url(personal_html/images/header_background.jpg);
+    background-image: url(../images/header_background.jpg);
     background-repeat: repeat-x;
     position: relative;
     border: solid rgb(239, 14, 202);
