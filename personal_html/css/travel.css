@@ -1,6 +1,6 @@
 div#main{
     height:1000px;
-    background-image: url(personal_html/images/main_body.jpg);
+    background-image: url(../images/main_body.jpg);
     background-repeat: repeat-y;
     background-size: 100% auto;
     margin-bottom: 0;
@@ -33,32 +33,32 @@ div.travel-begin {
     transition: transform 0.3s ease;
 }
 div#taining{
-    background-image: url(personal_html/images/泰宁.jpg);
+    background-image: url(../images/泰宁.jpg);
     background-size: cover;
     background-position: center;
 }
 div#changsha{
-    background-image: url(personal_html/images/长沙.jpg);
+    background-image: url(../images/长沙.jpg);
     background-size: cover;
     background-position: center;
 }
 div#wuhan{
-    background-image: url(personal_html/images/武汉.jpg);
+    background-image: url(../images/武汉.jpg);
     background-size: cover;
     background-position: center;
 }
 div#changzhi{
-    background-image: url(personal_html/images/长治.jpg);
+    background-image: url(../images/长治.jpg);
     background-size: cover;
     background-position: center;
 }
 div#suzhou{
-    background-image: url(personal_html/images/苏州.jpg);
+    background-image: url(../images/苏州.jpg);
     background-size: cover;
     background-position: center;
 }
 div#shanghai{
-    background-image: url(personal_html/images/上海.jpg);
+    background-image: url(../images/上海.jpg);
     background-size: cover;
     background-position: center;
 }
