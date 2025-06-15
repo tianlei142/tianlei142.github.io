@@ -16,7 +16,7 @@ body{
     flex-direction: column; /* 启用弹性布局 */
 }
 div#header{
-    background-image:url(personal_html/images/header_background.jpg);
+    background-image:url(../images/header_background.jpg);
     background-repeat:repeat-x;
     height: 150px;
 }
