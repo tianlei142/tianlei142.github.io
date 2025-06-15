@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+body{
+    /* background-image: url(../images/main_body.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    flex-direction: column; /* 启用弹性布局 */
+}
+div#header{
+    height: 150px;
+    background-image: url(personal_html/images/header_background.jpg);
+    background-repeat: repeat-x;
+    position: relative;
+    border: solid rgb(239, 14, 202);
+}
+div#header-img1 img{
+    float: left;
+    width: 150px;
+    height:80px;
+    position: absolute;
+    left: 4px;
+    top: 10px;
+}
+div#header-img2 img{
+    position: relative;
+    width: 100px;
+    height:30px;
+    position: absolute;
+    left: 200px;
+    top: 30px;
+}
+div#header-img3 img{
+    float: right;
+    position: relative;
+    width: 400px;
+    height:148px;
+    position: absolute;
+   left: 1000px;
+}
+div#header h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(13, 109, 234);
+    padding-top: 30px;
+}
+div#nav {
+    display: block;
+    unicode-bidi: isolate;
+}
+div#nav ul {
+    width: 1000px;
+     /* 增加高度并调整内边距 */
+    height: 50px;
+    padding: 0;
+    margin: 25px;
+    background-color: rgb(236, 179, 216);
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    list-style-type: none;
+}
+div#nav ul li {
+    flex: 1;
+    text-align: center;
+}
+div#nav ul li a {
+    display: block;
+    color: white;
+    font-size: 1.2em;
+    /* 添加行高以垂直居中文字 */
+    line-height: 50px;
+    text-decoration: none;
+    /* 添加过渡效果，使颜色变化更平滑 */
+    transition: background-color 0.3s ease;
+}
+/* 悬停效果：鼠标放在导航项上时变红 */
+div#nav ul li a:hover {
+    background-color: rgb(214, 5, 155);
+}
+/* 当前激活状态的导航项（如首页） */
+div#nav ul li a#active {
+    background-color: rgb(214, 5, 155);
+} 
+div#sidebar {
+    position:absolute;
+    top: 45%;
+    left: 20px;
+    width: 200px;
+    height: 500px;
+    background-size: cover;
+    border: 2px dashed #2654ea;
+    border-radius: 40%;
+    background-color: rgba(150, 190, 242, 0.5)
+}
+div#sidebar div#container1 img{
+    border:3px groove aqua;
+    border-radius: 50%;
+    width: 100px;
+    height: 150px;
+    position: relative;
+    margin: 50px;
+}
+div#sidebar div#side-text{
+    position:absolute;
+    text-align: center;
+    width: 100px;
+    height: 300px;
+    top: 200px;
+    left: 50px;
+    margin: 10px;
+    line-height: 3em;
+    color: aqua;
+    font-size: large;
+}
+div#foot{
+    padding-bottom: 60px;
+    background-color:rgb(196, 132, 182);
+}
+div#foot div#footer{
+    text-align: center;
+    line-height: 30px;
+    padding-top: 60px;
+}
